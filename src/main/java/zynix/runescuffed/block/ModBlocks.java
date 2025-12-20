@@ -17,14 +17,14 @@ import zynix.runescuffed.Runescuffed;
 import java.util.function.Function;
 
 public class ModBlocks {
-    public static final Block RUNEORE = register("runeore", Block::new,
+    public static final Block RUNE_ORE = register("rune_ore", Block::new,
             AbstractBlock.Settings.create()
                     .strength(3f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE)
     );
 
-    public static final Block RUNEBLOCK = register("runeblock", Block::new,
+    public static final Block RUNE_BLOCK = register("rune_block", Block::new,
             AbstractBlock.Settings.create()
                     .strength(3f)
                     .requiresTool()
@@ -59,8 +59,8 @@ public class ModBlocks {
         Runescuffed.LOGGER.info("Registering mod blocks for " + Runescuffed.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(RUNEORE);
-            fabricItemGroupEntries.add(RUNEBLOCK);
+            fabricItemGroupEntries.add(RUNE_ORE);
+            fabricItemGroupEntries.add(RUNE_BLOCK);
         });
     }
 }

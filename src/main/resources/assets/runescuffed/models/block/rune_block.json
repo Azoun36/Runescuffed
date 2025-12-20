@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "runescuffed:block/runeblock"
+    "all": "runescuffed:block/rune_block"
   }
 }

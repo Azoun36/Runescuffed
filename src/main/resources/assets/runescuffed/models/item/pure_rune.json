@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "runescuffed:item/purerune"
+    "layer0": "runescuffed:item/pure_rune"
   }
 }

@@ -12,23 +12,23 @@ import zynix.runescuffed.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup RuneItems_Group = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Runescuffed.MOD_ID, "runeitems"),
+            Identifier.of(Runescuffed.MOD_ID, "rune_items"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModItems.RUNE)) // 1. Use a Supplier (lambda) for the icon
-                    .displayName(Text.translatable("itemgroup.runescuffed.runeitems")) // 2. Add parentheses for the method call
+                    .displayName(Text.translatable("itemgroup.runescuffed.rune_items")) // 2. Add parentheses for the method call
                     .entries((displayContext, entries) -> { // 3. Use lambda syntax for entries
                         entries.add(ModItems.RUNE);
-                        entries.add(ModItems.PURERUNE);
+                        entries.add(ModItems.PURE_RUNE);
                     })
                     .build());
     public static final ItemGroup RuneBlocks_Group = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Runescuffed.MOD_ID, "runeblocks"),
+            Identifier.of(Runescuffed.MOD_ID, "rune_blocks"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(ModBlocks.RUNEORE))
-                    .displayName(Text.translatable("itemgroup.runescuffed.runeitems"))
+                    .icon(() -> new ItemStack(ModBlocks.RUNE_ORE))
+                    .displayName(Text.translatable("itemgroup.runescuffed.rune_items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.RUNEORE);
-                        entries.add(ModBlocks.RUNEBLOCK);
+                        entries.add(ModBlocks.RUNE_ORE);
+                        entries.add(ModBlocks.RUNE_BLOCK);
                     })
                     .build());
 

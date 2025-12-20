@@ -1,6 +1,6 @@
 {
   "model": {
     "type" : "minecraft:model",
-    "model": "runescuffed:item/runeblock"
+    "model": "runescuffed:item/rune_block"
   }
 }

@@ -11,8 +11,8 @@ import net.minecraft.util.Identifier;
 import zynix.runescuffed.Runescuffed;
 
 public class ModItems {
-    public static final RegistryKey<Item> PURERUNE_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Runescuffed.MOD_ID, "purerune"));
-    public static final Item PURERUNE = registerItem(PURERUNE_KEY, new Item(new Item.Settings().registryKey(PURERUNE_KEY)));
+    public static final RegistryKey<Item> PURE_RUNE_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Runescuffed.MOD_ID, "pure_rune"));
+    public static final Item PURE_RUNE = registerItem(PURE_RUNE_KEY, new Item(new Item.Settings().registryKey(PURE_RUNE_KEY)));
 
     public static final RegistryKey<Item> RUNE_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Runescuffed.MOD_ID, "rune"));
     public static final Item RUNE = registerItem(RUNE_KEY, new Item(new Item.Settings().registryKey(RUNE_KEY)));
@@ -26,7 +26,7 @@ public class ModItems {
         Runescuffed.LOGGER.info("Registering mod items for " + Runescuffed.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(PURERUNE);
+            fabricItemGroupEntries.add(PURE_RUNE);
             fabricItemGroupEntries.add(RUNE);
         });
     }

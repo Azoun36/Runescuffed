@@ -1,10 +1,10 @@
 {
   "item.runescuffed.rune": "Rune",
-  "item.runescuffed.purerune": "Pure Rune",
+  "item.runescuffed.pure_rune": "Pure Rune",
 
-  "item.runescuffed.runeore": "Rune Ore",
-  "item.runescuffed.runeblock": "Block of Rune Ore",
+  "item.runescuffed.rune_ore": "Rune Ore",
+  "item.runescuffed.rune_block": "Rune Block",
 
-  "itemgroup.runescuffed.runeitems": "Rune Items",
-  "itemgroup.runescuffed.runeblocks": "Rune Blocks"
+  "itemgroup.runescuffed.rune_items": "Rune Items",
+  "itemgroup.runescuffed.rune_blocks": "Rune Blocks"
 }
