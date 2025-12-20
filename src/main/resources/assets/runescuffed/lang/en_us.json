@@ -2,5 +2,9 @@
   "item.runescuffed.rune": "Rune",
   "item.runescuffed.purerune": "Pure Rune",
 
-  "block.runescuffed.ore": "Block of Rune Ore"
+  "item.runescuffed.runeore": "Rune Ore",
+  "item.runescuffed.runeblock": "Block of Rune Ore",
+
+  "itemgroup.runescuffed.runeitems": "Rune Items",
+  "itemgroup.runescuffed.runeblocks": "Rune Blocks"
 }

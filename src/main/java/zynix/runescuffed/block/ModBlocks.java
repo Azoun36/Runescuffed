@@ -19,10 +19,18 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final Block RUNEORE = register("runeore", Block::new,
             AbstractBlock.Settings.create()
-                    .strength(4f)
+                    .strength(3f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE)
     );
+
+    public static final Block RUNEBLOCK = register("runeblock", Block::new,
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+    );
+
 
     private static Block register(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings) {
         RegistryKey<Block> blockKey = keyOfBlock(name);
@@ -52,6 +60,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(RUNEORE);
+            fabricItemGroupEntries.add(RUNEBLOCK);
         });
     }
 }
