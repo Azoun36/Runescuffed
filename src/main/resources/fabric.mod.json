@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "runescuffed",
+	"version": "${version}",
+	"name": "Runescuffed",
+	"description": "Rune magic in minecraft!",
+	"authors": [
+		"ZyniX"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/Azoun36/Runescuffed"
+	},
+	"license": "MIT",
+	"icon": "assets/runescuffed/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"zynix.runescuffed.Runescuffed"
+		],
+		"fabric-datagen": [
+			"zynix.runescuffed.RunescuffedDataGenerator"
+		],
+		"client": [
+			"zynix.runescuffed.RunescuffedClient"
+		]
+	},
+	"mixins": [
+		"runescuffed.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
