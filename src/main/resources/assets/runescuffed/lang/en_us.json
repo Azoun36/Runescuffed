@@ -1,11 +1,21 @@
 {
   "item.runescuffed.rune": "Rune",
   "item.runescuffed.pure_rune": "Pure Rune",
-  "item.runescuffed.rune_chunk": "Pure Chunk",
+  "item.runescuffed.rune_chunk": "Rune Chunk",
+  "item.runescuffed.fire_rune": "Fire Rune",
+  "item.runescuffed.air_rune": "Air Rune",
+  "item.runescuffed.water_rune": "Water Rune",
+  "item.runescuffed.earth_rune": "Earth Rune",
+  "item.runescuffed.nature_rune": "Nature Rune",
 
   "item.runescuffed.rune_ore": "Rune Ore",
   "item.runescuffed.rune_block": "Rune Block",
 
   "itemgroup.runescuffed.rune_items": "Rune Items",
-  "itemgroup.runescuffed.rune_blocks": "Rune Blocks"
+  "itemgroup.runescuffed.rune_blocks": "Rune Blocks",
+  "itemgroup.runescuffed.fire_stone": "Fire Stone",
+  "itemgroup.runescuffed.air_stone": "Air Stone",
+  "itemgroup.runescuffed.water_stone": "Water Stone",
+  "itemgroup.runescuffed.earth_stone": "Earth Stone",
+  "itemgroup.runescuffed.nature_stone": "Nature Stone"
 }

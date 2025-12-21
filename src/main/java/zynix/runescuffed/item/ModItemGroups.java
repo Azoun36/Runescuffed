@@ -14,12 +14,17 @@ public class ModItemGroups {
     public static final ItemGroup RuneItems_Group = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Runescuffed.MOD_ID, "rune_items"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(ModItems.RUNE)) // 1. Use a Supplier (lambda) for the icon
-                    .displayName(Text.translatable("itemgroup.runescuffed.rune_items")) // 2. Add parentheses for the method call
-                    .entries((displayContext, entries) -> { // 3. Use lambda syntax for entries
+                    .icon(() -> new ItemStack(ModItems.RUNE))
+                    .displayName(Text.translatable("itemgroup.runescuffed.rune_items"))
+                    .entries((displayContext, entries) -> {
                         entries.add(ModItems.RUNE);
                         entries.add(ModItems.PURE_RUNE);
                         entries.add(ModItems.RUNE_CHUNK);
+                        entries.add(ModItems.FIRE_RUNE);
+                        entries.add(ModItems.AIR_RUNE);
+                        entries.add(ModItems.WATER_RUNE);
+                        entries.add(ModItems.EARTH_RUNE);
+                        entries.add(ModItems.NATURE_RUNE);
                     })
                     .build());
     public static final ItemGroup RuneBlocks_Group = Registry.register(Registries.ITEM_GROUP,
@@ -30,10 +35,11 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.RUNE_ORE);
                         entries.add(ModBlocks.RUNE_BLOCK);
+                        entries.add(ModBlocks.FIRE_STONE);
                     })
                     .build());
 
     public static void registerItemGroups() {
-        Runescuffed.LOGGER.info("Registering Item Groups for " + Runescuffed.MOD_ID);
+        Runescuffed.LOGGER.info("Registering Item Groups");
     }
 }
