@@ -19,6 +19,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> { // 3. Use lambda syntax for entries
                         entries.add(ModItems.RUNE);
                         entries.add(ModItems.PURE_RUNE);
+                        entries.add(ModItems.RUNE_CHUNK);
                     })
                     .build());
     public static final ItemGroup RuneBlocks_Group = Registry.register(Registries.ITEM_GROUP,

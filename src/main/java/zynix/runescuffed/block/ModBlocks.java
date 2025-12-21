@@ -3,6 +3,7 @@ package zynix.runescuffed.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -12,6 +13,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import zynix.runescuffed.Runescuffed;
 
 import java.util.function.Function;
@@ -24,7 +26,8 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.DEEPSLATE)
     );
 
-    public static final Block RUNE_BLOCK = register("rune_block", Block::new,
+    public static final Block RUNE_BLOCK = register("rune_block",
+            (settings) -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), settings),
             AbstractBlock.Settings.create()
                     .strength(3f)
                     .requiresTool()

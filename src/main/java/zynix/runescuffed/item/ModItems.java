@@ -17,6 +17,9 @@ public class ModItems {
     public static final RegistryKey<Item> RUNE_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Runescuffed.MOD_ID, "rune"));
     public static final Item RUNE = registerItem(RUNE_KEY, new Item(new Item.Settings().registryKey(RUNE_KEY)));
 
+    public static final RegistryKey<Item> RUNE_CHUNK_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Runescuffed.MOD_ID, "rune_chunk"));
+    public static final Item RUNE_CHUNK = registerItem(RUNE_CHUNK_KEY, new Item(new Item.Settings().registryKey(RUNE_CHUNK_KEY)));
+
 
     private static Item registerItem(RegistryKey<Item> key, Item item) {
         return Registry.register(Registries.ITEM, key, item);
@@ -28,6 +31,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(PURE_RUNE);
             fabricItemGroupEntries.add(RUNE);
+            fabricItemGroupEntries.add(RUNE_CHUNK);
         });
     }
 }
