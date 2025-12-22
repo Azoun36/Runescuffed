@@ -13,6 +13,7 @@ import net.minecraft.world.gen.feature.DefaultFeatureConfig;
 import net.minecraft.world.gen.feature.Feature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import zynix.runescuffed.UI.RadialConfig;
 import zynix.runescuffed.block.ModBlocks;
 import zynix.runescuffed.item.ModItemGroups;
 import zynix.runescuffed.item.ModItems;
@@ -26,7 +27,7 @@ public class Runescuffed implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		RadialConfig.load();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
