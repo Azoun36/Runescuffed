@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "runescuffed:nature_stone",
   "result": {
-    "count": 20,
+    "count": 18,
     "id": "runescuffed:nature_rune"
   }
 }

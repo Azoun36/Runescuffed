@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "runescuffed:water_stone",
   "result": {
-    "count": 20,
+    "count": 18,
     "id": "runescuffed:water_rune"
   }
 }

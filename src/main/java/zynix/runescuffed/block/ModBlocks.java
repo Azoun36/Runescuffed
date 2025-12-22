@@ -1,12 +1,10 @@
 package zynix.runescuffed.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -44,7 +42,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
     );
 
     public static final Block AIR_STONE = register("air_stone",
@@ -52,7 +50,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
     );
 
     public static final Block WATER_STONE = register("water_stone",
@@ -60,7 +58,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
     );
 
     public static final Block EARTH_STONE = register("earth_stone",
@@ -68,7 +66,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
     );
 
     public static final Block NATURE_STONE = register("nature_stone",
@@ -76,7 +74,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
     );
 
     private static Block register(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings) {

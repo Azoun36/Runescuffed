@@ -12,17 +12,20 @@
   "item.runescuffed.water_talisman": "Water Talisman",
   "item.runescuffed.earth_talisman": "Earth Talisman",
   "item.runescuffed.nature_talisman": "Nature Talisman",
+  "item.runescuffed.rune_staff": "Rune Staff",
+  "item.runescuffed.banana": "Banana",
 
   "item.runescuffed.rune_ore": "Rune Ore",
   "item.runescuffed.rune_block": "Rune Block",
-  "itemgroup.runescuffed.rune_items": "Rune Items",
-  "itemgroup.runescuffed.rune_blocks": "Rune Blocks",
-  "itemgroup.runescuffed.fire_stone": "Fire Stone",
-  "itemgroup.runescuffed.air_stone": "Air Stone",
-  "itemgroup.runescuffed.water_stone": "Water Stone",
-  "itemgroup.runescuffed.earth_stone": "Earth Stone",
-  "itemgroup.runescuffed.nature_stone": "Nature Stone",
+  "item.runescuffed.rune_items": "Rune Items",
+  "item.runescuffed.rune_blocks": "Rune Blocks",
+  "item.runescuffed.fire_stone": "Fire Stone",
+  "item.runescuffed.air_stone": "Air Stone",
+  "item.runescuffed.water_stone": "Water Stone",
+  "item.runescuffed.earth_stone": "Earth Stone",
+  "item.runescuffed.nature_stone": "Nature Stone",
 
+  "itemgroup.runescuffed.rune_items": "Runecuffed Items",
   "category.runescuffed.ui": "Runescuffed UI",
   "key.runescuffed.radial_menu": "Open Radial Menu"
 }

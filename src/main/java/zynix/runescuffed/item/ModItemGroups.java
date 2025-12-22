@@ -30,6 +30,8 @@ public class ModItemGroups {
                         entries.add(ModItems.WATER_TALISMAN);
                         entries.add(ModItems.EARTH_TALISMAN);
                         entries.add(ModItems.NATURE_TALISMAN);
+                        entries.add(ModItems.RUNE_STAFF);
+                        entries.add(ModItems.BANANA);
                     })
                     .build());
     public static final ItemGroup RuneBlocks_Group = Registry.register(Registries.ITEM_GROUP,
