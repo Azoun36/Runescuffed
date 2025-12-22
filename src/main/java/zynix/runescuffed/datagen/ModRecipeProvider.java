@@ -28,7 +28,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 StonecuttingRecipeJsonBuilder.createStonecutting(
                                 Ingredient.ofItems(ModItems.RUNE_CHUNK),
                                 RecipeCategory.MISC,
-                                ModItems.RUNE, 8
+                                ModItems.RUNE, 3
                         )
                         .criterion(hasItem(ModItems.RUNE_CHUNK), conditionsFromItem(ModItems.RUNE_CHUNK))
                         .offerTo(exporter);

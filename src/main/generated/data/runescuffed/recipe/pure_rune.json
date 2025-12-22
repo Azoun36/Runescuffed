@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "runescuffed:rune_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "runescuffed:pure_rune"
+  }
+}

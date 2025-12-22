@@ -25,6 +25,11 @@ public class ModItemGroups {
                         entries.add(ModItems.WATER_RUNE);
                         entries.add(ModItems.EARTH_RUNE);
                         entries.add(ModItems.NATURE_RUNE);
+                        entries.add(ModItems.FIRE_TALISMAN);
+                        entries.add(ModItems.AIR_TALISMAN);
+                        entries.add(ModItems.WATER_TALISMAN);
+                        entries.add(ModItems.EARTH_TALISMAN);
+                        entries.add(ModItems.NATURE_TALISMAN);
                     })
                     .build());
     public static final ItemGroup RuneBlocks_Group = Registry.register(Registries.ITEM_GROUP,
@@ -36,10 +41,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUNE_ORE);
                         entries.add(ModBlocks.RUNE_BLOCK);
                         entries.add(ModBlocks.FIRE_STONE);
+                        entries.add(ModBlocks.AIR_STONE);
+                        entries.add(ModBlocks.WATER_STONE);
+                        entries.add(ModBlocks.EARTH_STONE);
+                        entries.add(ModBlocks.NATURE_STONE);
                     })
                     .build());
 
     public static void registerItemGroups() {
-        Runescuffed.LOGGER.info("Registering Item Groups");
+        Runescuffed.LOGGER.info("Registering item groups");
     }
 }

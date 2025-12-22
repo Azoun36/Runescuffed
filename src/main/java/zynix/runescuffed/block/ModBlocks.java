@@ -105,14 +105,5 @@ public class ModBlocks {
     public static void registerModBlocks() {
         Runescuffed.LOGGER.info("Registering mod blocks");
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(RUNE_ORE);
-            fabricItemGroupEntries.add(RUNE_BLOCK);
-            fabricItemGroupEntries.add(FIRE_STONE);
-            fabricItemGroupEntries.add(AIR_STONE);
-            fabricItemGroupEntries.add(WATER_STONE);
-            fabricItemGroupEntries.add(EARTH_STONE);
-            fabricItemGroupEntries.add(NATURE_STONE);
-        });
     }
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "runescuffed:rune_chunk",
+  "result": {
+    "count": 3,
+    "id": "runescuffed:rune"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pure_rune": {
+      "conditions": {
+        "items": [
+          {
+            "items": "runescuffed:pure_rune"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "runescuffed:rune_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pure_rune"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "runescuffed:rune_block"
+    ]
+  }
+}

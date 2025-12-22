@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rune": {
+      "conditions": {
+        "items": [
+          {
+            "items": "runescuffed:rune"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "runescuffed:pure_rune_from_smelting_rune"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rune"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "runescuffed:pure_rune_from_smelting_rune"
+    ]
+  }
+}

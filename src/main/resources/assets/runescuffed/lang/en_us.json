@@ -7,6 +7,11 @@
   "item.runescuffed.water_rune": "Water Rune",
   "item.runescuffed.earth_rune": "Earth Rune",
   "item.runescuffed.nature_rune": "Nature Rune",
+  "item.runescuffed.fire_talisman": "Fire Talisman",
+  "item.runescuffed.air_talisman": "Air Talisman",
+  "item.runescuffed.water_talisman": "Water Talisman",
+  "item.runescuffed.earth_talisman": "Earth Talisman",
+  "item.runescuffed.nature_talisman": "Nature Talisman",
 
   "item.runescuffed.rune_ore": "Rune Ore",
   "item.runescuffed.rune_block": "Rune Block",

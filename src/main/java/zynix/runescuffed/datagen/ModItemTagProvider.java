@@ -20,11 +20,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         valueLookupBuilder(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(ModItems.RUNE)
-                .add(ModItems.PURE_RUNE)
-                .add(ModItems.FIRE_RUNE)
-                .add(ModItems.AIR_RUNE)
-                .add(ModItems.WATER_RUNE)
-                .add(ModItems.EARTH_RUNE)
-                .add(ModItems.NATURE_RUNE);
+                .add(ModItems.PURE_RUNE);
     }
 }

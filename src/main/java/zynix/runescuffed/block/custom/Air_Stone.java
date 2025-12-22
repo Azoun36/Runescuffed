@@ -24,7 +24,7 @@ public class Air_Stone extends Block {
             ItemStack inputStack = itemEntity.getStack();
 
             if (isValidItem(inputStack)) {
-                int multiplier = inputStack.isOf(ModItems.PURE_RUNE) ? 3 : 1;
+                int multiplier = inputStack.isOf(ModItems.PURE_RUNE) ? 2 : 1;
 
                 int newCount = inputStack.getCount() * multiplier;
                 itemEntity.setStack(new ItemStack(ModItems.AIR_RUNE, newCount));

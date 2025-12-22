@@ -1,0 +1,4 @@
+// 1.21.11	-999999999-01-01T00:00:00	Runescuffed/Tags for minecraft:block
+7cbe9773a5b2782082d012993b6cf707f3a779b7 data/minecraft/tags/block/mineable/pickaxe.json
+f12974232bc1f7db851af3c75f71cefb3796a76b data/minecraft/tags/block/needs_diamond_tool.json
+9fa5d617682fb8efbf52997d2aba9010dc15b8a2 data/minecraft/tags/block/needs_iron_tool.json

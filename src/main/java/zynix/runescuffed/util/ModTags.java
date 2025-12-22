@@ -1,6 +1,5 @@
 package zynix.runescuffed.util;
 
-
 import zynix.runescuffed.Runescuffed;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;

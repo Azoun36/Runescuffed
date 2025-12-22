@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "pure_rune",
+  "ingredient": "runescuffed:rune",
+  "result": {
+    "id": "runescuffed:pure_rune"
+  }
+}
