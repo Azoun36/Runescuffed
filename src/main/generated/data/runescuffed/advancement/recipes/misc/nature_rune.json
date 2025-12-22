@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nature_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "runescuffed:nature_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "runescuffed:nature_rune"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nature_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "runescuffed:nature_rune"
+    ]
+  }
+}

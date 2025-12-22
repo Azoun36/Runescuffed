@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "runescuffed:fire_stone",
+  "result": {
+    "count": 20,
+    "id": "runescuffed:fire_rune"
+  }
+}

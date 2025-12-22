@@ -28,9 +28,49 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 StonecuttingRecipeJsonBuilder.createStonecutting(
                                 Ingredient.ofItems(ModItems.RUNE_CHUNK),
                                 RecipeCategory.MISC,
-                                ModItems.RUNE, 3
+                                ModItems.RUNE, 2
                         )
                         .criterion(hasItem(ModItems.RUNE_CHUNK), conditionsFromItem(ModItems.RUNE_CHUNK))
+                        .offerTo(exporter);
+
+                StonecuttingRecipeJsonBuilder.createStonecutting(
+                                Ingredient.ofItems(ModBlocks.FIRE_STONE),
+                                RecipeCategory.MISC,
+                                ModItems.FIRE_RUNE, 20
+                        )
+                        .criterion(hasItem(ModBlocks.FIRE_STONE), conditionsFromItem(ModBlocks.FIRE_STONE))
+                        .offerTo(exporter);
+
+                StonecuttingRecipeJsonBuilder.createStonecutting(
+                                Ingredient.ofItems(ModBlocks.AIR_STONE),
+                                RecipeCategory.MISC,
+                                ModItems.AIR_RUNE, 20
+                        )
+                        .criterion(hasItem(ModBlocks.AIR_STONE), conditionsFromItem(ModBlocks.AIR_STONE))
+                        .offerTo(exporter);
+
+                StonecuttingRecipeJsonBuilder.createStonecutting(
+                                Ingredient.ofItems(ModBlocks.WATER_STONE),
+                                RecipeCategory.MISC,
+                                ModItems.WATER_RUNE, 20
+                        )
+                        .criterion(hasItem(ModBlocks.WATER_STONE), conditionsFromItem(ModBlocks.WATER_STONE))
+                        .offerTo(exporter);
+
+                StonecuttingRecipeJsonBuilder.createStonecutting(
+                                Ingredient.ofItems(ModBlocks.EARTH_STONE),
+                                RecipeCategory.MISC,
+                                ModItems.EARTH_RUNE, 20
+                        )
+                        .criterion(hasItem(ModBlocks.EARTH_STONE), conditionsFromItem(ModBlocks.EARTH_STONE))
+                        .offerTo(exporter);
+
+                StonecuttingRecipeJsonBuilder.createStonecutting(
+                                Ingredient.ofItems(ModBlocks.NATURE_STONE),
+                                RecipeCategory.MISC,
+                                ModItems.NATURE_RUNE, 20
+                        )
+                        .criterion(hasItem(ModBlocks.NATURE_STONE), conditionsFromItem(ModBlocks.NATURE_STONE))
                         .offerTo(exporter);
 
                 offerReversibleCompactingRecipes(RecipeCategory.BUILDING_BLOCKS, ModItems.PURE_RUNE,

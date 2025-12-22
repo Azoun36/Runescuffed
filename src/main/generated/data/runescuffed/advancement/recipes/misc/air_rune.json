@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_air_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "runescuffed:air_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "runescuffed:air_rune"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_air_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "runescuffed:air_rune"
+    ]
+  }
+}
