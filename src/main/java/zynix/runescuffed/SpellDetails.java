@@ -15,7 +15,6 @@ public class SpellDetails {
         return 0.0f;
     }
 
-    // ADD THIS METHOD
     public static SoundEvent getSound(String spell) {
         if (spell.contains("Fire")) return SoundEvents.ENTITY_GHAST_SHOOT;
         if (spell.contains("Wind")) return SoundEvents.ENTITY_BREEZE_SHOOT;
